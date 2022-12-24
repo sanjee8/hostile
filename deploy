@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync -av ./ u109183481@access920424456.webspace-data.io:~/clickandbuilds/PrestaShop/Ostil/themes/ostil --include=public/build --include=public/.htaccess --include=vendor --exclude-from=.gitignore --exclude=".*"
